@@ -26,7 +26,7 @@ export const RegisterForm: React.FC = () => {
         placeholder="Password..."
         onChange={(e) => setPassword(e.target.value)}
       />
-      <button onClick={signIn}>Sign In</button>
+      <button onClick={signIn}>Register</button>
     </div>
   );
 };
